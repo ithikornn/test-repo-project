@@ -11,5 +11,4 @@ public class People {
         this.money = money;
         this.id = id;
     }
-
 }
