@@ -3,6 +3,7 @@ package cs211.project.models;
 public class People {
 
     private String nane;
+    private String amp;
     private int money;
     private String id;
     public People(String name , int money, String id) {
@@ -10,4 +11,5 @@ public class People {
         this.money = money;
         this.id = id;
     }
+
 }
