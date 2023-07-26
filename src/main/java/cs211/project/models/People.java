@@ -4,8 +4,8 @@ public class People {
 
     private String nane;
     private String id;
-    private int num;
-    public People(String name, String id, int num) {
+    private double num;
+    public People(String name, String id, double num) {
         this.nane = name;
         this.id = id;
         this.num = num;
