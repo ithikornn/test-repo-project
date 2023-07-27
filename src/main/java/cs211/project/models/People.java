@@ -2,12 +2,12 @@ package cs211.project.models;
 
 public class People {
 
-    private String nane;
-    private String id;
+    private String name;
+    private String name_id;
     private double num;
-    public People(String name, String id, double num) {
-        this.nane = name;
-        this.id = id;
+    public People(String name, String name_id, double num) {
+        this.name = name;
+        this.name_id = name_id;
         this.num = num;
     }
 }
